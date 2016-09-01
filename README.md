@@ -44,3 +44,7 @@ public class RunningExampleEvaluation {
 I forget to mention, Glimmer got the following results using expanded queries:
 
 Different Words: Recall:0.24799999999999994 Precision:0.24799999999999994 F-measure:0.24799999999999994
+
+## Aknowledgement
+
+If you plan to use the benchmark, you have to proper reference Glimmer, KBox and openQA.
