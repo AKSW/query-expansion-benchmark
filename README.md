@@ -49,7 +49,7 @@ I forget to mention, BM25F got the following results using expanded queries with
 
 Different Words: Recall:0.24799999999999994 Precision:0.24799999999999994 F-measure:0.24799999999999994
 
-You can check it yourself executing [GlimmerQALDEvaluation](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/GlimmerQALDEvaluation.java)
+You can check it yourself executing [GlimmerQALDEvaluation](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/GlimmerQALDEvaluation.java).
 
 ### Aknowledgement
 
