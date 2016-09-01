@@ -43,7 +43,7 @@ public class RunningExampleEvaluation {
 }
 ```
 
-### Reported system results
+### Reported systems result
 
 I forgot to mention, BM25F got the following results using expanded queries without treatment:
 
