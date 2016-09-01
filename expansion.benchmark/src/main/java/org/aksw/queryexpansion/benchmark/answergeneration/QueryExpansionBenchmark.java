@@ -8,6 +8,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.aksw.kbox.KBox;
+import org.aksw.kbox.ZipInstall;
 import org.aksw.openqa.qald.QALDBenchmark;
 import org.aksw.openqa.qald.QALDBenchmarkResult;
 import org.aksw.openqa.qald.QuestionResult;
@@ -48,7 +50,13 @@ public class QueryExpansionBenchmark {
 	 * @throws Exception if there is an exception while reading the index. 
 	 */
 	public static RDFIndex getIndex() throws Exception {
-		File kb = new File("D:/temp/index-dbpedia_idx36");
+		URL idx = new URL("http://openqa.aksw.org/download/glimmer/dbpedia/39/kb.idx");
+		File kb = null;
+		try {
+			kb = KBox.getResource(idx, new ZipInstall(), true);
+		} catch (Exception e) {
+			throw new Exception("The index could not be retrieved by KBox, check your disk space or internet connection.", e);
+		}
 		Context context;
 		context = new Context("exampleContext.properties");
 		context.setKbRootPath(kb);
@@ -96,11 +104,12 @@ public class QueryExpansionBenchmark {
 	}
 	
 	/**
+	 * Perform the given query using the given index.
 	 * 
-	 * @param index
-	 * @param query
-	 * @return
-	 * @throws Exception
+	 * @param index the RDFIndex that will be queried.
+	 * @param query the query.
+	 * @return a list of resource returned by the given index. 
+	 * @throws Exception if some exception occurs while accessing the index.
 	 */
 	public static List<String> query(RDFIndex index, String query) throws Exception {
 		List<String> result = new ArrayList<String>();
@@ -121,6 +130,7 @@ public class QueryExpansionBenchmark {
 				100,
 				false,
 				0);
+		
 		List<QueryResultItem> resultItems = queryResult.getResultItems();
 		for (QueryResultItem queryResultItem : resultItems) {
 			result.add(queryResultItem.getSubject());
@@ -208,7 +218,7 @@ public class QueryExpansionBenchmark {
 		Dataset glimmerDataset = QALDBenchmark.deserialize(new File(QALDFileURL.toURI()));
 		Question expected = getQuestion(glimmerDataset, question.getId());
 		if(expected == null) {
-			throw new Exception("No question match the given id.");
+			throw new Exception("No question in the dataset match the given id: " + question.getId());
 		}
 		List<Answer> answerList = expected.getAnswers().getAnswer();
 		answerList = answerList.subList(0, top);
@@ -217,7 +227,14 @@ public class QueryExpansionBenchmark {
 		return QALDBenchmark.evaluate(question, expected);
 	}
 	
-	private static Question getQuestion(Dataset dataset, String id) {
+	/**
+	 * Get a Question with the given id.
+	 * 
+	 * @param dataset the dataset containing the Question.
+	 * @param id the id of the Question that is going to be search in the given dataset.
+	 * @return a Question with the given id.
+	 */
+	public static Question getQuestion(Dataset dataset, String id) {
 		for(Question q : dataset.getQuestion()) {
 			if(q.getId().equals(id)) {
 				return q;

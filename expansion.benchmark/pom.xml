@@ -61,6 +61,13 @@
 
 	<dependencies>
 		<dependency>
+		    <groupId>glimmer</groupId>
+		    <artifactId>com.yahoo.glimmer</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>${project.basedir}/libs/glimmer.jar</systemPath>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-client</artifactId>
 			<version>${hadoop.version}</version>
@@ -70,7 +77,7 @@
 					<groupId>org.glassfish</groupId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency>		
 		<dependency>
 			<groupId>org.semanticweb.yars</groupId>
 			<artifactId>nxparser</artifactId>
@@ -200,5 +207,15 @@
 			<artifactId>guava</artifactId>
 			<version>14.0-rc3</version>
 		</dependency>
+		<dependency>
+	    	<groupId>org.aksw.kbox</groupId>
+		    <artifactId>kbox.core</artifactId>
+		    <version>0.0.1-alpha3</version>
+		</dependency>
+		<dependency>
+	        <groupId>org.mapdb</groupId>
+	        <artifactId>mapdb</artifactId>
+	        <version>2.0-beta13</version>
+	    </dependency>
 	</dependencies>
 </project>
