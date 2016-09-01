@@ -45,7 +45,7 @@ public class RunningExampleEvaluation {
 
 ### Reported system results
 
-I forget to mention, BM25F got the following results using expanded queries without treatment:
+I forgot to mention, BM25F got the following results using expanded queries without treatment:
 
 Different Words: Recall:0.24799999999999994 Precision:0.24799999999999994 F-measure:0.24799999999999994
 
