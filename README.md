@@ -10,7 +10,7 @@ The [groundtruth](https://github.com/AKSW/query-expansion-benchmark/tree/master/
 
 The chalenge consist in define an algorithm that, by using the expanded queries, returns the most similar result to the original query.
 
-## Running Example
+### Running Example
 
 You can use the running example at [RunningExampleEvaluation](https://github.com/AKSW/query-expansion-benchmark/tree/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/example) to know how to evaluate your system:
 
@@ -47,6 +47,6 @@ I forget to mention, Glimmer got the following results using expanded queries:
 
 Different Words: Recall:0.24799999999999994 Precision:0.24799999999999994 F-measure:0.24799999999999994
 
-## Aknowledgement
+### Aknowledgement
 
 If you plan to use the benchmark, you have to proper reference Glimmer, KBox and openQA.
