@@ -53,4 +53,4 @@ You can check it yourself executing [GlimmerQALDEvaluation](https://github.com/A
 
 ### Aknowledgement
 
-If you plan to use the benchmark, you have to proper reference Glimmer, KBox and openQA.
+If you plan to use the benchmark or any part of the code, you might have to proper reference Glimmer, KBox and openQA.
