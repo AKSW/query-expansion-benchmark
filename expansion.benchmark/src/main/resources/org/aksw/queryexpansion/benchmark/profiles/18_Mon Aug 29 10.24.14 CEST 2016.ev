@@ -1,0 +1,23 @@
+
+Question Index ////////////////////////////////////////////////////////////////// 
+18
+Give me all films produced by Steven Spielberg with a budget of at least $80 million.
+
+Evaluation Date ////////////////////////////////////////////////////////////////// 
+Mon Aug 29 10:24:14 CEST 2016
+
+Task 1: Question with different Words ////////////////////////////////////////////////////////////////// 
+Give me all the movies produced by Steven Spielberg that had budges of at least $80 Million
+
+Task 2: Question with different Order ////////////////////////////////////////////////////////////////// 
+Give me all of the $80 Million dollar movies that Steven Spielberg produced.
+
+Task 3: Question with typos ////////////////////////////////////////////////////////////////// 
+Give me all filmes produced by Stephen Spielberg with a bugget of at leest 80 meelion.
+
+Task 4: Question with different Inflec ////////////////////////////////////////////////////////////////// 
+Give me every film produced by Steven Spielberg with a budget of at least 80 millions.
+
+Task 5: Question with different words, order, inflections, and typos ////////////////////////////////////////////////////////////////// 
+Give me all of the $80 meelion dollar movies produced by Stephen Spielberg.
+

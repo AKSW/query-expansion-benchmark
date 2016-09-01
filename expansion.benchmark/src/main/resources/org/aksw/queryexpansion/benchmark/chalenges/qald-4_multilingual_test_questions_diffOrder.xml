@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset id="qald-4_multilingual_test">
+<question aggregation="false" answertype="resource" id="1" onlydbo="true">
+<string lang="en"><![CDATA[All taikonauts give me.]]></string>
+</question>
+<question aggregation="true" answertype="number" id="2" onlydbo="true">
+<string lang="en"><![CDATA[In Colombia, how many languages are spoken?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="3" onlydbo="true">
+<string lang="en"><![CDATA[NOTE]]></string>
+</question>
+<question aggregation="true" answertype="number" id="4" onlydbo="true">
+<string lang="en"><![CDATA[There are how many programming languages?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="5" onlydbo="true">
+<string lang="en"><![CDATA[For the Dutch parties, give me all of them.]]></string>
+</question>
+<question aggregation="false" answertype="date" id="6" onlydbo="false">
+<string lang="en"><![CDATA[Carlo Giuliani was shot when?]]></string>
+</question>
+<question aggregation="false" answertype="boolean" id="7" onlydbo="true">
+<string lang="en"><![CDATA[does the flow Isar into a lake.]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="8" onlydbo="true">
+<string lang="en"><![CDATA[The flow of rivers in german lake?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="9" onlydbo="false">
+<string lang="en"><![CDATA[Jupiter's lightest moon how heavey?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="10" onlydbo="true">
+<string lang="en"><![CDATA[Who is the Darts youngest player ?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="11" onlydbo="true">
+<string lang="en"><![CDATA[extinct animals all give me]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="12" onlydbo="true">
+<string lang="en"><![CDATA[War and Peace has how many pages?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="13" onlydbo="true">
+<string lang="en"><![CDATA[Carrot cake includes which ingredients?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="14" onlydbo="true">
+<string lang="en"><![CDATA[What is the most frequent cause of death?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="15" onlydbo="true">
+<string lang="en"><![CDATA[Who has been married to Cruise, Tom?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="16" onlydbo="true">
+<string lang="en"><![CDATA[Who is the tallest player of the Falcons Atlanta]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="17" onlydbo="true">
+<string lang="en"><![CDATA[What is the bridge that has a span that is the longest?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="18" onlydbo="true">
+<string lang="en"><![CDATA[Give me all of the $80 Million dollar movies that Steven Spielberg produced.]]></string>
+</question>
+<question aggregation="false" answertype="boolean" id="19" onlydbo="true">
+<string lang="en"><![CDATA[Is coke a beverage?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="20" onlydbo="true">
+<string lang="en"><![CDATA[This actor was casted in the most movies, who was it?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="21" onlydbo="true">
+<string lang="en"><![CDATA[What is Bach's birthplace?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="22" onlydbo="true">
+<string lang="en"><![CDATA[Which of Burton, Tims films had the highest budget?]]></string>
+</question>
+<question aggregation="false" answertype="boolean" id="23" onlydbo="true">
+<string lang="en"><![CDATA[Does the place where Lincoln Abraham died have its own website?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="24" onlydbo="false">
+<string lang="en"><![CDATA[There are four MVPs that are the youngest, who are they?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="25" onlydbo="false">
+<string lang="en"><![CDATA[According to IGN, what are the top-10 action role-playing video games?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="26" onlydbo="true">
+<string lang="en"><![CDATA[List Berlin actors.]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="27" onlydbo="true">
+<string lang="en"><![CDATA[Give me actors all who were born in Paris after 1950.]]></string>
+</question>
+<question aggregation="false" answertype="number" id="28" onlydbo="false">
+<string lang="en"><![CDATA[What was Brazil's lowest rank in the World Ranking of FIFA?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="29" onlydbo="true">
+<string lang="en"><![CDATA[Give me all metalcore bands in Australia ]]></string>
+</question>
+<question aggregation="false" answertype="date" id="30" onlydbo="false">
+<string lang="en"><![CDATA[What is the date of Halloween?]]></string>
+</question>
+<question aggregation="false" answertype="number" id="31" onlydbo="true">
+<string lang="en"><![CDATA[How inhabitants does the city largest in Canada have?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="32" onlydbo="true">
+<string lang="en"><![CDATA[ The west African CFA Franc is excepted in which country? ]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="33" onlydbo="false">
+<string lang="en"><![CDATA[The Himalayas runs through various capitals. can you name them ?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="34" onlydbo="true">
+<string lang="en"><![CDATA[Mount Everest, who was the first to climb it?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="35" onlydbo="true">
+<string lang="en"><![CDATA[The painter of The Three Dancers belonged to which artistic movement?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="36" onlydbo="true">
+<string lang="en"><![CDATA[Which succeeded John Paul ll pope?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="37" onlydbo="true">
+<string lang="en"><![CDATA[The last movie with Alec Guinness was called what?]]></string>
+</question>
+<question aggregation="true" answertype="number" id="38" onlydbo="false">
+<string lang="en"><![CDATA[how many bond james movies are there]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="39" onlydbo="false">
+<string lang="en"><![CDATA[Chewbacca was played by which actor?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="40" onlydbo="true">
+<string lang="en"><![CDATA[Who are Bruce Lees' grandchildren?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="41" onlydbo="true">
+<string lang="en"><![CDATA[Nobel Literature Prize all writers]]></string>
+</question>
+<question aggregation="false" answertype="string" id="42" onlydbo="true">
+<string lang="en"><![CDATA[The University of Oxford's accredited color is..?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="43" onlydbo="true">
+<string lang="en"><![CDATA[Show all me oceanographers Swedish.]]></string>
+</question>
+<question aggregation="false" answertype="number" id="44" onlydbo="true">
+<string lang="en"><![CDATA[Lake Placid is how deep?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="45" onlydbo="true">
+<string lang="en"><![CDATA[James Bond is married?]]></string>
+</question>
+<question aggregation="false" answertype="uri" id="46" onlydbo="true">
+<string lang="en"><![CDATA[from which flight to space launched from baikonur]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="47" onlydbo="false">
+<string lang="en"><![CDATA[All actors called Baldwin give me]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="48" onlydbo="true">
+<string lang="en"><![CDATA[CPU does stand what for?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="49" onlydbo="true">
+<string lang="en"><![CDATA[The Beatles' first album was recorded in what studio?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="50" onlydbo="true">
+<string lang="en"><![CDATA[How many medals gold did Phelps, Michael win at the Olympics 2008?]]></string>
+</question>
+</dataset>

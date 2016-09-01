@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset id="qald-4_multilingual_test">
+<question aggregation="false" answertype="resource" id="1" onlydbo="true">
+<string lang="en"><![CDATA[Giv me al taiknat.]]></string>
+</question>
+<question aggregation="true" answertype="number" id="2" onlydbo="true">
+<string lang="en"><![CDATA[How manuy languagse are spoken in Colombia?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="3" onlydbo="true">
+<string lang="en"><![CDATA[SMALL]]></string>
+</question>
+<question aggregation="true" answertype="number" id="4" onlydbo="true">
+<string lang="en"><![CDATA[How amny prgramming lnguages r ther?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="5" onlydbo="true">
+<string lang="en"><![CDATA[Geiv meh all Deutsch partys.]]></string>
+</question>
+<question aggregation="false" answertype="date" id="6" onlydbo="false">
+<string lang="en"><![CDATA[When was Carlo Gulani shoot?]]></string>
+</question>
+<question aggregation="false" answertype="boolean" id="7" onlydbo="true">
+<string lang="en"><![CDATA[does the Iasr flow into a lake]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="8" onlydbo="true">
+<string lang="en"><![CDATA[wich rivers flow inta German lake?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="9" onlydbo="false">
+<string lang="en"><![CDATA[How heavy is jupiters lightset moon?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="10" onlydbo="true">
+<string lang="en"><![CDATA[Who is teh youngest Darts player?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="11" onlydbo="true">
+<string lang="en"><![CDATA[give me amnals that ar exctint]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="12" onlydbo="true">
+<string lang="en"><![CDATA[How mny pagess does War and Peece haves?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="13" onlydbo="true">
+<string lang="en"><![CDATA[Which ingredents do I need for carot cake?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="14" onlydbo="true">
+<string lang="en"><![CDATA[What is teh most frequenc death cauze?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="15" onlydbo="true">
+<string lang="en"><![CDATA[Who haz Tom Cruz bin marryed to?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="16" onlydbo="true">
+<string lang="en"><![CDATA[Who is the talest playr of the Atlanta Falcons?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="17" onlydbo="true">
+<string lang="en"><![CDATA[Wath is eth brdgei with hte lonesgt pans?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="18" onlydbo="true">
+<string lang="en"><![CDATA[Give me all filmes produced by Stephen Spielberg with a bugget of at leest 80 meelion.]]></string>
+</question>
+<question aggregation="false" answertype="boolean" id="19" onlydbo="true">
+<string lang="en"><![CDATA[Is Cola a bevridge]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="20" onlydbo="true">
+<string lang="en"><![CDATA[wich actor was casted in the most movis?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="21" onlydbo="true">
+<string lang="en"><![CDATA[What was the birthplace of Bach?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="22" onlydbo="true">
+<string lang="en"><![CDATA[Whihc of Tim Burton's flims had the highste bugdet?]]></string>
+</question>
+<question aggregation="false" answertype="boolean" id="23" onlydbo="true">
+<string lang="en"><![CDATA[Is their a web site for the place Abraham Lincoin died?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="24" onlydbo="false">
+<string lang="en"><![CDATA[Who R the fore youngest MVP basketballl playas?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="25" onlydbo="false">
+<string lang="en"><![CDATA[What are the top-10 ation roleplaying video games acording to IGN?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="26" onlydbo="true">
+<string lang="en"><![CDATA[Who are hte actres from Berlin?]]></string>
+</question>
+<question aggregation="true" answertype="resource" id="27" onlydbo="true">
+<string lang="en"><![CDATA[Giv me al actors who were born in Paris aftr 1950.]]></string>
+</question>
+<question aggregation="false" answertype="number" id="28" onlydbo="false">
+<string lang="en"><![CDATA[What was Brazil's loest rank in the World Ranking of FIFA?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="29" onlydbo="true">
+<string lang="en"><![CDATA[Tel me all Australan metalcor band]]></string>
+</question>
+<question aggregation="false" answertype="date" id="30" onlydbo="false">
+<string lang="en"><![CDATA[What daet is haloween?]]></string>
+</question>
+<question aggregation="false" answertype="number" id="31" onlydbo="true">
+<string lang="en"><![CDATA[How many inhabtiants dose the largest citie in Canada gave?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="32" onlydbo="true">
+<string lang="en"><![CDATA[In which countrys can you pay using the West African CFA frank?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="33" onlydbo="false">
+<string lang="en"><![CDATA[The Himalayas runs throush various capitals. Cane you name them ?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="34" onlydbo="true">
+<string lang="en"><![CDATA[Whoo was thee fiirst too climb mont Everest?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="35" onlydbo="true">
+<string lang="en"><![CDATA[To wich atristic movment did the panter of The Trhee Dancers bleong?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="36" onlydbo="true">
+<string lang="en"><![CDATA[Whch pop succcedrd Jon Poll too?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="37" onlydbo="true">
+<string lang="en"><![CDATA[What was the most resent film that stared Alex Guines?]]></string>
+</question>
+<question aggregation="true" answertype="number" id="38" onlydbo="false">
+<string lang="en"><![CDATA[how many james bond movies aer there ]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="39" onlydbo="false">
+<string lang="en"><![CDATA[Whihc acter plaed Chuwboca?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="40" onlydbo="true">
+<string lang="en"><![CDATA[What are the names' of Bruce Lees grandchilren?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="41" onlydbo="true">
+<string lang="en"><![CDATA[Gibe me all writres that won hte Noble Prize in litaretur.]]></string>
+</question>
+<question aggregation="false" answertype="string" id="42" onlydbo="true">
+<string lang="en"><![CDATA[The University of Oxford's accredtied color is..?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="43" onlydbo="true">
+<string lang="en"><![CDATA[Display too me all Swedesh oceanigraphers.]]></string>
+</question>
+<question aggregation="false" answertype="number" id="44" onlydbo="true">
+<string lang="en"><![CDATA[How depending is like plecid?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="45" onlydbo="true">
+<string lang="en"><![CDATA[Is Jmes Bnd Maried?]]></string>
+</question>
+<question aggregation="false" answertype="uri" id="46" onlydbo="true">
+<string lang="en"><![CDATA[wich spaeflights were launhed from baikonur]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="47" onlydbo="false">
+<string lang="en"><![CDATA[Give me all acters caled Baldwin.]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="48" onlydbo="true">
+<string lang="en"><![CDATA[What dos CPU stnad for?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="49" onlydbo="true">
+<string lang="en"><![CDATA[ni wihch sdtuio ddi teh betles recrd thier furst albim?]]></string>
+</question>
+<question aggregation="false" answertype="resource" id="50" onlydbo="true">
+<string lang="en"><![CDATA[Hwo mayn ogld meadls ddi Micheal Pehlps wni ta teh 2008 Olympcis?]]></string>
+</question>
+</dataset>
