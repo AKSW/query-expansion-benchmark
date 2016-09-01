@@ -10,6 +10,8 @@ The [groundtruth](https://github.com/AKSW/query-expansion-benchmark/tree/master/
 
 The chalenge consist in define an algorithm that, by using the expanded queries, returns the most similar result to the original query.
 
+## Running Example
+
 You can use the running example at [RunningExampleEvaluation](https://github.com/AKSW/query-expansion-benchmark/tree/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/example) to know how to evaluate your system:
 
 ```
