@@ -51,6 +51,6 @@ Different Words: Recall:0.24799999999999994 Precision:0.24799999999999994 F-meas
 
 You can check it yourself executing [GlimmerQALDEvaluation](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/GlimmerQALDEvaluation.java).
 
-### Aknowledgement
+### Acknowledgement
 
 If you plan to use the benchmark or any part of the code, you might have to proper reference BM25F, KBox and openQA.
