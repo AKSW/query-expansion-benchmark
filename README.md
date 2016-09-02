@@ -51,6 +51,15 @@ I forgot to mention, BM25F got the following results using expanded queries with
 
 You can check it yourself executing [BM25FQALDEvaluation](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/GlimmerQALDEvaluation.java).
 
-### Acknowledgement
+### Acknowledgement & License
 
-If you plan to use the benchmark or any part of the code, you might have to proper reference BM25F, [KBox](http://github.com/aksw/KBox) and [openQA](http://openqa.aksw.org).
+- If you plan to use the benchmark or any part of the code for benchmark your query expansion approach, you might have to proper reference BM25F, [KBox](http://github.com/aksw/KBox) and [openQA](http://openqa.aksw.org).
+
+- If you want to use the code or any part of this benchmark for your own propose
+
+- Any use of the benchmark or any part of the code for exclusive propouse is not authorized.
+In order to do that, you have to contact the author.
+
+### Contact
+
+[http://emarx.org](http://emarx.org)
