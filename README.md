@@ -59,6 +59,8 @@ public class RunningExampleEvaluation {
 I forgot to mention, BM25F got the following results using expanded queries without treatment:
 
 [Different Words](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_diffWords.xml): Recall:0.24799999999999994 Precision:0.24799999999999994 F-measure:0.24799999999999994
+[Inflections](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_withInflec.xml): Recall:0.45519999999999994 Precision:0.45519999999999994 F-measure:0.45519999999999994
+[Different Order](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_diffOrder.xml): Recall:0.5811999999999999 Precision:0.5811999999999999 F-measure:0.5811999999999999
 
 You can check it yourself executing [BM25FQALDEvaluation](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/BM25FQALDEvaluation.java).
 
