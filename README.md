@@ -29,11 +29,12 @@ public class RunningExampleEvaluation {
 	public static void main(String[] args) throws Exception {
 		// in this example we are going to evaluate expanded queries with different words
 		
-		URL QALDFileURL = GlimmerQALDEvaluation.class
+		URL QALDFileURL = BM25FQALDEvaluation.class
 				.getResource("/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_diffWords.xml");
 		Dataset questionDataset = QueryExpansionBenchmark.generateAnswers(new File(QALDFileURL
 				.toURI()));
-		List<Question> questions = questionDataset.getQuestion();
+		List<Question> questions = questionDataset.getQuestion();		
+		RDFIndex index = QueryExpansionBenchmark.getIndex();
 		
 		for(Question q : questions) {
 			org.aksw.openqa.qald.schema.String expandedQueryString = q.getString().get(0); // all questions must have at least one schema.String
@@ -42,12 +43,12 @@ public class RunningExampleEvaluation {
 			// Do the expansion here....
 			
 			String myNewQuery = ""; // put your new query here
-			List<String> result = QueryExpansionBenchmark.query(myNewQuery); 
+			List<String> result = QueryExpansionBenchmark.query(index, myNewQuery); 
 			
 			// now you can compare
 			QuestionResult questionResult = QueryExpansionBenchmark.benchmark(q.getId(), result);
 			
-			System.out.println(questionResult.toString()); // here you get the precision, recall and f-measure...
+			System.out.println(questionResult.toString()); // here we go...
 		}		
 	}
 }
@@ -59,7 +60,7 @@ I forgot to mention, BM25F got the following results using expanded queries with
 
 [Different Words](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_diffWords.xml): Recall:0.24799999999999994 Precision:0.24799999999999994 F-measure:0.24799999999999994
 
-You can check it yourself executing [BM25FQALDEvaluation](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/GlimmerQALDEvaluation.java).
+You can check it yourself executing [BM25FQALDEvaluation](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/BM25FQALDEvaluation.java).
 
 ### Acknowledgement & License
 
