@@ -10,6 +10,16 @@ The [groundtruth](https://github.com/AKSW/query-expansion-benchmark/tree/master/
 
 The chalenge consist in define an algorithm that, by using the expanded queries, returns the most similar result to the original query.
 
+### Chalengings
+
+We compile the chalenges in five categories:
+
+- Different Words: When user describe the aiming resource using different words;
+- Different Order: The query is expanded with words in different order (e.g. Bill Gates as Gates Bill);
+- Different Inflections: The query is expanded with words using different inflections (e.g. orange as oranges);
+- Different Words: The query is expanded with typos (e.g. words to wors);
+- All: All the above chalenges together.
+
 ### Running Example
 
 You can use the running example at [RunningExampleEvaluation](https://github.com/AKSW/query-expansion-benchmark/tree/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/example) to know how to evaluate your system:
