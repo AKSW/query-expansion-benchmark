@@ -22,7 +22,7 @@ We compile the chalenges in five categories:
 
 ### Running Example
 
-You can use the running example at [RunningExampleEvaluation](https://github.com/AKSW/query-expansion-benchmark/tree/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/example) to know how to evaluate your system:
+You can use the running example at [RunningExampleEvaluation](https://github.com/AKSW/query-expansion-benchmark/tree/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/example) to learn how to evaluate your system:
 
 ```
 public class RunningExampleEvaluation {
