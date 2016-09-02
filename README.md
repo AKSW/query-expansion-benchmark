@@ -55,8 +55,6 @@ You can check it yourself executing [BM25FQALDEvaluation](https://github.com/AKS
 
 - If you plan to use the benchmark or any part of the code for benchmark your query expansion approach, you might have to proper reference BM25F, [KBox](http://github.com/aksw/KBox) and [openQA](http://openqa.aksw.org).
 
-- If you want to use the code or any part of this benchmark for your own propose
-
 - Any use of the benchmark or any part of the code for exclusive propouse is not authorized.
 In order to do that, you have to contact the author.
 
