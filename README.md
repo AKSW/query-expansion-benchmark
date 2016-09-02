@@ -6,7 +6,7 @@ This repository contains a benchmark for query-expansion based on questions of [
 - The Benchmark made use of [openQA](http://openqa.aksw.org) and [KBox](http://github.com/aksw/KBox) for manipulating and evaluating QALD questions;
 
 The benchmark contain 50 questions manually expanded by users.
-The [groundtruth](https://github.com/AKSW/query-expansion-benchmark/tree/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/groundtruth) was obtained using the real questions--the not expanded questions--with a common algorithm (BMF25F) over [DBpedia](http://dbpedia.org).
+The [groundtruth](https://github.com/AKSW/query-expansion-benchmark/tree/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/groundtruth) was obtained using the real questions--the not expanded questions--with a common algorithm (BM25F) over [DBpedia](http://dbpedia.org).
 
 The chalenge consist in define an algorithm that, by using the expanded queries, returns the most similar result to the original query.
 
@@ -49,8 +49,8 @@ I forgot to mention, BM25F got the following results using expanded queries with
 
 Different Words: Recall:0.24799999999999994 Precision:0.24799999999999994 F-measure:0.24799999999999994
 
-You can check it yourself executing [GlimmerQALDEvaluation](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/GlimmerQALDEvaluation.java).
+You can check it yourself executing [BM25FQALDEvaluation](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/java/org/aksw/queryexpansion/benchmark/answergeneration/GlimmerQALDEvaluation.java).
 
 ### Acknowledgement
 
-If you plan to use the benchmark or any part of the code, you might have to proper reference BM25F, KBox and openQA.
+If you plan to use the benchmark or any part of the code, you might have to proper reference BM25F, [KBox](http://github.com/aksw/KBox) and [openQA](http://openqa.aksw.org).
