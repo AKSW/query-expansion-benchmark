@@ -14,7 +14,5 @@ public class CompareSystemAnswers {
 					.toURI()));
 			QALDBenchmarkResult benchmarkResult = QueryExpansionBenchmark.benchmark(answeredDataset);
 			System.out.println(benchmarkResult.toString());
-			
-			
 	}
 }
