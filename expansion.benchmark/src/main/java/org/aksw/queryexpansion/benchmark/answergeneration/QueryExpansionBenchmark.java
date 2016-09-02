@@ -150,7 +150,7 @@ public class QueryExpansionBenchmark {
 	 */
 	public static QALDBenchmarkResult benchmark(Dataset dataset) throws Exception {
 		URL QALDFileURL = BM25FQALDEvaluation.class
-				.getResource("/org/aksw/queryexpansion/benchmark/groundtruth/qald-4_multilingual_test_questions_glimmer_answer.xml");
+				.getResource("/org/aksw/queryexpansion/benchmark/groundtruth/qald-4_multilingual_test_questions_BM25F_answer.xml");
 		Dataset glimmerDataset = QALDBenchmark.deserialize(new File(QALDFileURL.toURI()));
 		return QALDBenchmark.evaluate(dataset, glimmerDataset);
 	}

@@ -34,7 +34,7 @@ public class RunningExampleEvaluation {
 			// now you can compare
 			QuestionResult questionResult = QueryExpansionBenchmark.benchmark(q.getId(), result);
 			
-			System.out.println(questionResult.toString()); // here we go...
+			System.out.println(questionResult.toString()); // here you get the precision, f-measure and recall
 		}		
 	}
 }
