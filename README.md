@@ -10,7 +10,7 @@ The [groundtruth](https://github.com/AKSW/query-expansion-benchmark/tree/master/
 
 The chalenge consist in define an algorithm that, by using the expanded queries, returns the most similar result to the original query.
 
-### Chalengings
+### Chalenges
 
 We compile the chalenges in five categories:
 
