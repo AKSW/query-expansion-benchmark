@@ -147,7 +147,7 @@ public class QueryExpansionBenchmark {
 	 * @throws Exception if any error occurs during the evaluation.
 	 */
 	public static QALDBenchmarkResult benchmark(Dataset dataset) throws Exception {
-		URL QALDFileURL = GlimmerQALDEvaluation.class
+		URL QALDFileURL = BM25FQALDEvaluation.class
 				.getResource("/org/aksw/queryexpansion/benchmark/groundtruth/qald-4_multilingual_test_questions_glimmer_answer.xml");
 		Dataset glimmerDataset = QALDBenchmark.deserialize(new File(QALDFileURL.toURI()));
 		return QALDBenchmark.evaluate(dataset, glimmerDataset);
@@ -213,8 +213,8 @@ public class QueryExpansionBenchmark {
 		if(top > 100) {
 			throw new Exception("Top can not be bigger than 100.");
 		}
-		URL QALDFileURL = GlimmerQALDEvaluation.class
-				.getResource("/org/aksw/queryexpansion/benchmark/qald/qald-4_multilingual_glimmer_answer.xml");
+		URL QALDFileURL = BM25FQALDEvaluation.class
+				.getResource("/org/aksw/queryexpansion/benchmark/qald/qald-4_multilingual_BM25F_answer.xml");
 		Dataset glimmerDataset = QALDBenchmark.deserialize(new File(QALDFileURL.toURI()));
 		Question expected = getQuestion(glimmerDataset, question.getId());
 		if(expected == null) {
