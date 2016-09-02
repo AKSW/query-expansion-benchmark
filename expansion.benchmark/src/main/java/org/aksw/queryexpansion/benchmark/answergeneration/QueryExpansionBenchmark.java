@@ -61,7 +61,7 @@ public class QueryExpansionBenchmark {
 		context = new Context("exampleContext.properties");
 		context.setKbRootPath(kb);
 		RDFIndex index = new RDFIndex(context.getMultiIndexDirPrefix(),
-				context);		
+				context);
 		return index;
 	}
 	
@@ -118,9 +118,11 @@ public class QueryExpansionBenchmark {
 		query = query.replace("?", "");
 		query = query.replace("'s", "");
 		query = query.replace("'", "");
-		query = query.replace("-", " ");
+		query = query.replace("-", " ");		
 		query = query.replace(",", "");
-		query = query.replace(" ", " | ");
+		query = query.replaceAll("\\s+", " "); // removing extra spaces
+		query = query.trim();
+		query = query.replace(" ", " | ");		
 		
 		Query parsedQuery = index.getParser().parse(query);
 		Querier querier = new Querier();
