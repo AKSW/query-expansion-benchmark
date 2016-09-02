@@ -14,11 +14,11 @@ The chalenge consist in define an algorithm that, by using the expanded queries,
 
 We compile the chalenges in five categories:
 
-- Different Words: When user describe the aiming resource using different words;
-- Different Order: The query is expanded with words in different order (e.g. Bill Gates as Gates Bill);
-- Different Inflections: The query is expanded with words using different inflections (e.g. orange as oranges);
-- Different Words: The query is expanded with typos (e.g. words to wors);
-- All: All the above chalenges together.
+- [Different Words](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_diffWords.xml): When user describe the aiming resource using different words;
+- [Different Order](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_diffOrder.xml): The query is expanded with words in different order (e.g. Bill Gates as Gates Bill);
+- [Inflections](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_withInflec.xml): The query is expanded with words using different inflections (e.g. orange as oranges);
+- [Typos](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_withTypos.xml): The query is expanded with typos (e.g. words to wors);
+- [All](https://github.com/AKSW/query-expansion-benchmark/blob/master/expansion.benchmark/src/main/resources/org/aksw/queryexpansion/benchmark/chalenges/qald-4_multilingual_test_questions_all.xml): All the above chalenges together.
 
 ### Running Example
 
